@@ -1,0 +1,690 @@
+@charset "utf-8";
+/* OLD Errorneo
+@font-face 					{	font-family: 'Agenda';
+
+ 								/* Para Internet Explorer
+								src: url('fonts/Agenda.eot');
+
+ 								/*  Para el resto de navegadores 
+								src: local('Agenda'),
+	     						url('fonts/Agenda.ttf') format('truetype');
+}
+*/
+body {
+	background-color: #EAE7E0;
+	margin: 0px;
+	font-family: 'agendamedium', 'Open Sans', sans-serif;
+	background-position:bottom;
+	background-repeat:repeat-x;
+	background-image: url(../images/bottom.jpg);
+		min-width: 1370px;
+}
+.md-main-wrap{
+	overflow: hidden;
+		min-width: 1370px;
+}
+.clearfix {display:block}
+.grid_11 {
+	width: 60%;
+}
+.grid_10 {
+	width: 55%;
+}
+.grid_9 {
+	width: 50%;
+}
+.grid_8 {
+	width: 45%;
+}
+.grid_7 {
+	width: 40%;
+}
+.grid_6 {
+	width: 35%;
+}
+.grid_5 {
+	width: 30%;
+}
+.grid_4 {
+	width: 25%;
+}
+.grid_3 {
+	width: 20%;
+}
+.grid_2 {
+	width: 15%;
+}
+.grid_1 {
+	width: 10%;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+display: inline;
+float: left;
+position: relative;
+}
+.rs, h1.rs, h2.rs, h3.rs, h4.rs, h5.rs, h6.rs {
+margin: 0;
+padding: 0;
+}
+.warp1080 {
+	width: 1080px;
+	margin: auto;
+}
+.warp1370 {
+	width: 1370px;
+	margin: auto;
+	min-width: 1370px;
+}
+.md-head-wrap {
+	height: 176px;
+	background-image: url(../images/degradado_blanco.png);
+	background-repeat: repeat-x;
+	background-position-x: center;
+	background-position-y: center;
+	min-width:1370px;
+}
+.lines{
+	background-image: url(../images/lines2.png), url(../images/lines2.png);
+	background-repeat: repeat-y, repeat-y;
+	background-position-x: -145px, 1223px;
+	background-position-y: center, center;
+}
+.md-logo {
+	top: 40px;
+	left: 200px;
+}
+.md-logo {
+	position: absolute;
+}
+.md-head-wrap .md-logo h1 {
+	background-image: url(../images/carpimat_logo.png);
+	height: 112px;
+	width: 420px;
+	display:inline-block;
+	top:0;
+	left:0;
+}
+.md-logo h1 a {
+	text-indent: -900em;
+	display: block;
+	width: 420px;
+	height: 112px;
+}
+a, a:hover, a:focus {
+text-decoration: none;
+outline: 0;
+}
+.element-01 {
+	top: 0px;
+	left: 860px;
+	position: absolute;
+	z-index: 20;
+}
+.md-head-wrap .element-01 h1 {
+	background-image: url(../images/cupon_carpimat.png);
+	background-repeat:no-repeat;
+	height: 240px;
+	width: 300px;
+	display:inline-block;
+	top:0px;
+	left:0;
+	background-position: 0px -20px;
+}
+.element-01 h1 a {
+	text-indent: -900em;
+	display: block;
+	width: 300px;
+	height: 240px;
+}
+.facebook {
+	top: 80px;
+	left: 1160px;
+	position: absolute;
+}
+.md-head-wrap .facebook h1 {
+	background-image: url(../images/facebook.png);
+	background-repeat:no-repeat;
+	height: 81px;
+	width: 40px;
+	display:inline-block;
+	top:0;
+	left:0;
+}
+.facebook h1 a {
+	text-indent: -900em;
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.mascota {
+	position: absolute;
+	background-image: url(../images/mascota_carpimat.png);
+	background-repeat: no-repeat;
+	top: 242px;
+	left: 794px;
+	text-indent: -900em;
+	display: block;
+	z-index:99;
+	height: 440px;
+	width: 551px;
+}
+.md-slide-message {
+	position:absolute;
+	display:block;
+}
+.md-slide-message.message-01 {
+	width:542px;
+	height:180px;
+	top: 50px;
+	left: 522px;
+	z-index: 99;
+}
+.md-slide-message.message-02 {
+	width:309px;
+	height:117px;
+	top: 85px;
+	left: 680px;
+	z-index: 99;
+}
+.md-slide-message.message-03 {
+	width:460px;
+	height:118px;
+	top: 85px;
+	left: 250px;
+	z-index: 99;
+}
+.md-slide-background {	position:absolute;
+	display:block;
+	width:1370px; height:286px; z-index:98}
+.md-slide-category {	position:absolute;
+	display:block;
+	width:1370px; height:286px; z-index:99}
+.md-slide-icon {	position:absolute;
+	display:block;
+	width:139px; height:131px; z-index:100; top:85px; left:580px}
+.md-nav-wrap {
+	background-image: url(../images/lines2.png), url(../images/lines2.png), url(../images/ul-nav-bg.png);
+	background-repeat: repeat-y, repeat-y, repeat-x;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+	height: 128px;
+	width: 1370px;
+	z-index: 100;
+	margin-bottom: -42px;
+	position: relative;
+}
+
+.md-nav-wrap.menumascota{
+	background-image: url(../images/lines2.png), url(../images/lines2.png), url(../images/ul-nav-bg_mascota.png);
+	background-repeat: repeat-y, repeat-y, repeat-x;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+}
+ul.nav {
+	margin:auto;
+	padding:0;
+	margin-top: -50px;
+	width:1100px;
+	height:128px;
+	z-index:2;
+	}
+ul.nav li {
+	height:71px;
+	width:180px;
+	margin:36px 0;
+	padding:0;
+	list-style:none;
+	float:left;
+	z-index: 999;
+	position: relative;
+}
+ul.nav li a {
+	height:71px;
+	width:180px;
+	line-height:60px;
+	text-align:center;
+	display: block;
+	text-indent:-900em;
+}
+ul.nav li a.inicio {
+	background: url(../images/menu_li_inicio.png);
+}
+ul.nav li a.inicio:hover,ul.nav li a.inicio.current {
+	color:#FFF;
+	background: url(../images/menu_li_inicio_hover.png);
+}
+ul.nav li a.quienes {
+	background: url(../images/menu_li_quienes.png);
+}
+ul.nav li a.quienes:hover,ul.nav li a.quienes.current {
+	color:#FFF;
+	background: url(../images/menu_li_quienes_hover.png);
+}
+ul.nav li a.productos {
+	background: url(../images/menu_li_productos.png);
+}
+ul.nav li a.productos:hover,ul.nav li a.productos.current  {
+	color:#FFF;
+	background: url(../images/menu_li_productos_hover.png);
+}
+ul.nav li a.servicios {
+	background: url(../images/menu_li_servicios.png);
+}
+ul.nav li a.servicios:hover,ul.nav li a.servicios.current {
+	color:#FFF;
+	background: url(../images/menu_li_servicios_hover.png);
+}
+ul.nav li a.contacto {
+	background: url(../images/menu_li_contacto.png);
+}
+ul.nav li a.contacto:hover,ul.nav li a.contacto.current {
+	color:#FFF;
+	background: url(../images/menu_li_contacto_hover.png);
+}
+.md-subnav-wrap {
+	position:absolute;
+	top:324px;
+	left:0px;
+	height: 40px;
+	width: 1370px;
+	background-image: url(../images/ul-subnav-bg.png);
+	background-position: top;
+	z-index: 15;
+}
+ul.subnav {
+	margin:auto;
+	padding:0;
+	margin-top:36px;
+	width:1100px;
+	position:relative;
+	width:1100px;
+	z-index:14;
+	}
+ul.subnav li {
+	height:71px;
+	width:180px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+ul.subnav li a {
+	height:71px;
+	width:180px;
+	line-height:60px;
+	text-align:center;
+	display: block;
+	text-indent:-900em;
+}
+.md-content {
+	position:absolute;
+	left:0px;
+	height: 360px;
+	width: 1370px;
+	z-index:0;
+	display: block;
+	padding:0px;
+}
+.md-content.inicio {
+	background-image: url(../images/lines2.png), url(../images/lines2.png),url(../images/main-content-bg.png);
+	background-repeat: repeat-y, repeat-y, repeat-x;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+}
+.md-content.quienes {
+	background-image: url(../images/lines2.png), url(../images/lines2.png),url(../images/main-content-bg-quines.png);
+	background-repeat: repeat-y, repeat-y, no-repeat;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+	
+}
+.md-content.producto {
+	background-image: url(../images/lines2.png), url(../images/lines2.png),url(../images/main-content-bg-producto.png);
+	background-repeat: repeat-y, repeat-y, no-repeat;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+}
+.md-content.servicios {
+	background-image: url(../images/lines2.png), url(../images/lines2.png),url(../images/main-content-bg-servicios.png);
+	background-repeat: repeat-y, repeat-y, no-repeat;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+}
+.md-content.contacto {
+	background-image: url(../images/lines2.png), url(../images/lines2.png),url(../images/contacto-line.png), url(../images/vertical-line.png), url(../images/main-content-bg-quines.png) ;
+	background-repeat:repeat-y, repeat-y, no-repeat, no-repeat, no-repeat;
+	background-position-x: -145px, 1223px,200px,40px, center;
+	background-position-y: center, center,200px,740px,center;
+}
+.md-content.herramientas {
+	background-image: url(../images/lines2.png), url(../images/lines2.png),url(../images/main-content-bg-quines.png);
+	background-repeat: repeat-y, repeat-y, no-repeat;
+	background-position-x: -145px, 1223px, center;
+	background-position-y: center, center, center;
+}
+.md-info {
+	width: 1080px;
+	margin: auto;
+	padding:0px;
+
+}
+.md-info p { margin:0px; font-size:14px; padding-bottom:12px}
+ul.menu-productos {
+	list-style-type: none;
+	text-align: right;
+	padding: 0px;
+	margin-top: 60px;
+	margin-right: 0px;
+}
+ul.menu-productos a {
+	color: #000;
+	line-height: 24px;
+	font-size: 18px;
+	
+}
+ul.menu-productos a:hover, ul.menu-productos a.current {
+	font-weight: bold;
+	text-decoration: none;
+	font-weight:bold;
+	color:#FFF;
+	font-size:20px;
+}
+
+ul.menu-tipos {
+	text-align: left;
+	padding: 0px;
+	margin-top: 40px;
+	margin-left: 2px;
+	width: 156px;
+	list-style-type: none;
+}
+ul.menu-tipos.maderas {margin-top: 30px}
+ul.menu-tipos.alter {margin-top: 30px; margin-left:10px}
+ul.menu-tipos a {
+	color: #000;
+	font-size: 14px;
+	padding-left:8px;
+}
+ul.menu-tipos a:hover, ul.menu-tipos a.current {
+	background: url(../images/bullet-type.png);
+	background-repeat:no-repeat;
+	font-weight:bold;
+	color:#060;
+}
+.icon-info {
+	background-image: url(../images/icon-info.png);
+	text-indent: -900em;
+	display: block;
+	height: 113px;
+	width: 120px;
+	left: 320px;
+	top: 110px;
+	position:absolute;
+	z-index: 99;
+}
+.carusel-info {
+	display: block;
+	height: 360px;
+	width: 740px;
+	margin-left:56px;
+	float:left;
+}
+
+.producto h1 {
+	font-size:36px;
+	margin:0;
+}
+.herramientas h1 {
+	font-size:36px;
+	margin:0;
+}
+.producto h2 {
+	font-size:16px;
+	margin:0;
+}
+.herramientas h2 {
+	font-size:16px;
+	margin:0;
+}
+.product-type {
+
+}
+.producto-info {
+	padding-top: 30px;
+	padding-left: 30px;
+	width: 240px;
+}
+.producto-cubierta {
+padding-top: 30px;
+}
+.producto-info h1 {
+	color: #060;
+	font-size: 20px;
+}
+.producto-cubierta h1 {
+	color: #060;
+	font-size: 20px;
+}
+.producto-info p {
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.producto-info table {	}
+.producto-info table th {
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.producto-info table td {
+	padding-bottom: 4px;
+	font-size: 14px;
+}
+.producto-info .mini table td {
+	padding-bottom: 4px;
+	font-size: 9px !important;
+}
+.producto-img {position:absolute; top:26px;left:340px}
+.producto-img-ranurado {position:absolute; top:26px;left:240px}
+.md-foot-wrap {
+	width:100%;
+	background:url(../images/footer-bg.png),url(../images/blanco-footer.png) ;
+	height:300px;
+	min-width:1370px;
+	background-repeat:repeat-x ,no-repeat ;
+	background-position:top;
+	background-color: #848688;
+}
+ul.catalogo-pdf { margin:auto; padding:20px; width:200px; height:113px}
+ul.catalogo-pdf li {
+	float:left;
+	list-style:none;
+	height:113px;
+	width:200px;
+}
+ul.catalogo-pdf li a {
+	height:113px;
+	width:200px;
+	display:block;
+	background-image: url(../images/catalogos-button-e.png);
+	background-repeat: no-repeat;
+	color:#000;
+	text-indent: -900em;
+}
+ul.catalogo-pdf li a.carpimat{
+	background-position:left top;
+}
+ul.catalogo-pdf li a.truper{
+	background-position:right top;
+}
+ul.catalogo-pdf li a.carpimat:hover{
+	background-position:left bottom;
+}
+ul.catalogo-pdf li a.truper:hover{
+	background-position:right bottom;
+}
+.copyright { background:url(../images/footer-bg-copyright.png); height:300px; background-position:bottom; background-repeat:no-repeat; width:1080px; margin:auto}
+.margin_14 { margin-left:140px}
+.margin_26 { margin-left:260px }
+.margin_3 { margin-left:30px}
+.margin_2 { margin-left:20px}
+.paddingbot_6 { padding-bottom:60px}
+.margintop_8 { margin-top:80px}
+.margintop_4 { margin-top:40px}
+.margintop_3 { margin-top:30px}
+.margintop_2 { margin-top:20px}
+.margintop_1 { margin-top:10px}
+.padding_1 { padding:0px 10px}
+.padding_2 { padding:0px 20px}
+.padding_3 { padding:0px 30px}
+.padding_4 { padding:0px 40px}
+.right_1{ margin-right:10px}
+.right_2{ margin-right:20px}
+.right_3{ margin-right:30px}
+.quienes h1 {
+	background-image: url(../images/quienes-somos.png);
+	text-indent: -900em;
+	display: block;
+	height: 79px;
+	width: 179px;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+.quienes h2 { margin-left:20px; font-size:18px}
+.servicios h2 { margin-left:30px; margin-right:30px; margin-top:40px; font-size:18px}
+.servicios h3 { color:#005929; margin: 0px 0px 0px 0px;}
+.servicios p { margin:0px 0px 10px 0px; font-size:13px; padding:0}
+p a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+p a:hover {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: underline;
+}
+#contacto h1 {
+	font-size:24px;
+	margin:0px;
+	float:left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align:left;
+	margin-left:120px;
+}
+#contacto h2 {
+	font-size:36px;
+	margin:0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align:left;
+	margin-left:50px;
+}
+#contacto input.text {
+display: block;
+width: 300px;
+float: right;
+margin-right: 50px;
+margin-top: 0px;
+background-color: #FFF;
+border-top-style: none;
+border-right-style: none;
+border-bottom-style: none;
+border-left-style: none;
+height: 30px;
+font-family: Agenda-Medium, Arial, Helvetica, sans-serif;
+}
+#contacto .textarea {
+	display:block;
+	width:400px;
+	margin-left:50px;
+	margin-top:10px;
+	background-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	height:100px;
+	font-family: Agenda-Medium, Arial, Helvetica, sans-serif;
+}
+#contacto .hr {
+	display:block;
+	clear:both;
+	text-indent:-900em;
+	background:url(../images/line-horizontal.png);
+	background-position:center top;
+	margin: 0px;
+	padding: 0px;
+	height:10px;
+	background-repeat:no-repeat;
+}
+.mensaje-envio {width:565px; margin:auto;clear:both; padding-top:50px}
+#contacto input.button { margin-left:30px; background: url(../images/boton_contacto.jpg); width: 100px; height: 30px; text-indent: -999em; border: none;}
+.md-foot-wrap p { font-size:12px; margin:0}
+.md-foot-wrap h1 { margin:20px 0px 10px 0px; font-size:24px}
+.md-foot-wrap #contacto_footer h1 { font-size:24px}
+.md-foot-wrap #quienes-somos h1 { font-size:36px; text-align:center}
+.md-foot-wrap #quienes-somos p { font-size:16px; margin:30px 0px 0px 0px}
+
+#secundary { position: relative;  width: 1370px; margin: -40px auto 0; z-index: 999; height:37px;	background-image: url(../images/secundary_nav.png);
+	background-repeat: no-repeat;top: 2px;}
+#secundary .nav_centrado {overflow: hidden;position: relative; width:1080px; margin:0 auto; top: -59px; height: 72px;}
+#secundary .nav_centrado ul {
+	padding: 0;
+	margin: 0px 0 23px 0;
+	list-style: none;
+	width: 0px;
+}
+
+#secundary ul li, #secundary ul li a { height: 38px; line-height: 35px; padding: 0 10px; text-align: center; display: inline; color:#000}
+
+#secundary ul li:hover, #secundary ul li a:hover { color: #fff; cursor: pointer; }
+
+#secundary ul li:hover, #secundary ul li a.current { color: #fff; cursor: pointer; }
+
+#secundary ul li.icon {
+height: 38px;
+padding: 10px 10px 20px 34px;
+margin-bottom: 18px;
+}
+
+#secundary ul li.herramientas{
+	background: url(../images/secundary/herramientas.png) no-repeat left center;
+}
+#secundary ul li.cubiertas{
+	background: url(../images/secundary/cubiertas.png) no-repeat left center;
+}
+#secundary ul li.lacas{
+	background: url(../images/secundary/lacas.png) no-repeat left center;
+}
+#secundary ul li.duelas{
+	background: url(../images/secundary/duelas.png) no-repeat left center;
+}
+#secundary ul li.carpi-productos{
+	background: url(../images/secundary/carpi-productos.png) no-repeat left center;
+}
+#secundary ul li.herrajes{
+	background: url(../images/secundary/herrajes.png) no-repeat left center;
+}
+#secundary ul li.maderas{
+	background: url(../images/secundary/maderas.png) no-repeat left center;
+}
+#secundary ul li.triplay{
+	background: url(../images/secundary/triplay.png) no-repeat left center;
+}
+#secundary ul li.tableros{
+	background: url(../images/secundary/tableros.png) no-repeat left center;
+}
+section.contenido {
+	height: 360px;
+}
